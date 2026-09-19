@@ -25,8 +25,8 @@ SECRET_KEY = 'django-insecure-j4tw1qwmrj_#@4w%z@b5*cn6_n%ya8@t!e731o3jwx-m@6ikul
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['quiz-auwt.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['https://quiz-auwt.onrender.com']
 
 # Application definition
 
